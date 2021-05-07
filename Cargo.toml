@@ -7,3 +7,8 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# Each line below here gives the name of a crate on crates.io, and the version we'd like to use. We only need to name the packages we use directly, cargo automatically brings in the packages needed.
+iron = "0.5.1"
+mime = "0.2.3"
+router = "0.5.1"
+urlencoded = "0.5.0"
